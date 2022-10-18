@@ -30,25 +30,28 @@ body{
 
 /* Inizio main */
 
-.little-container{
-   
+
+.little-container{ 
     background-color: white;
-    border-radius: 15px 15px 0px 0px;
+    border-radius: 10px 10px 0px 0px;
     height: 50px;
     margin: auto;
-    width: 60%;
+    width: 55%;
     padding: 10px;
-    
+    margin-bottom: 2px;
+    margin-top: 10px;
 }
+
 .container{
-    margin-top:50px;
-    border-radius: 0px 0px 15px 15px;
-    background-color: pink;
-    height: 700px;
+    border-radius: 0px 0px 10px 10px;
+    background-color: white;
+    height: 600px;
     margin: auto;
-    width: 60%;
+    width: 55%;
     padding: 10px;
+    margin-bottom: 20px;
 }
+/* "Pulsanti" add task e add section */
 .add{
     display: inline-block;
     border: 1px solid grey;
@@ -61,25 +64,88 @@ body{
     padding-top: 8px;
     margin-left: 40px;
 }
+
 .section{
     margin-left: 7px;
     background-color: white;
     color: gray;
 }
+
 .task{
-    background-color: rgb(74, 63, 194);
+    background-color: rgb(71, 173, 241);
     color: white;
 }
+
+/* Lista non ordinata */
 ul{
     list-style: none;
-
+    margin-top: 30px;
 }
+
+li{
+    margin:10px;
+    }
+
 .unordered-list{
     padding-left: 50px;
 }
+
 .query:before{
-    content: '&#9658;'
+    content: '\25bc'
 }
+
 .query{
     font-weight: bold;
+}
+
+
+.editorial, .goals, .recruting, .mobile, .website, .sales{
+    font-weight: bold;
+    font-size: 15px;
+    border-radius: 10px;
+    padding: 4px;
+    color: white;
+}
+
+/* Scritte ccon sfondo colorato */
+
+.editorial{
+    background-color: rgb(71, 173, 241);
+}
+
+.goals{
+background-color: rgb(156, 114, 228);
+}
+
+.recruting{
+    background-color:rgb(39, 185, 180);
+}
+
+.mobile{
+    background-color: orange;
+}
+
+.website{
+    background-color: rgb(216, 99, 161);
+}
+
+.sales{
+    background-color: rgb(23, 215, 100);
+}
+/* Validazioni a sinistra della lista non ordinata */
+.circle{
+    padding: 0 3px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+.cross {
+    color:red;
+   
+    border: 1px solid red;
+}
+.valid{
+    color: green;
+    border: 1px solid green;
+    
 }
