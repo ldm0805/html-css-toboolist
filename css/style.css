@@ -43,7 +43,7 @@ body{
 .container{
     margin-top:50px;
     border-radius: 0px 0px 15px 15px;
-    background-color: red;
+    background-color: pink;
     height: 700px;
     margin: auto;
     width: 60%;
@@ -77,7 +77,7 @@ ul{
 .unordered-list{
     padding-left: 50px;
 }
-.arrowdown:before{
+.query:before{
     content: '&#9658;'
 }
 .query{
